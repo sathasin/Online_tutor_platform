@@ -1,0 +1,26 @@
+.side-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100vh;
+    background: #f8f9fa;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .side-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .application-item {
+    border-bottom: 1px solid #ddd;
+    margin: 15px 0;
+    padding-bottom: 10px;
+  }
+  

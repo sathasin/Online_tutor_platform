@@ -1,0 +1,51 @@
+/* src/components/SubjectList.css */
+.subject-list-container {
+    padding: 20px;
+  }
+  
+  .subject-list-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  li p {
+    margin: 5px 0;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  li p:last-child {
+    color: #2a9d8f;
+    font-weight: bold;
+  }
+  
+  .no-tutor {
+    color: #e76f51;
+  }
+  
+  .subject-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subject-item img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  

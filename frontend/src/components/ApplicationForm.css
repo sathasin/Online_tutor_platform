@@ -1,0 +1,53 @@
+/* src/components/ApplicationForm.css */
+.application-form-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+}
+
+.application-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.application-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.application-form-container input,
+.application-form-container textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.application-form-container textarea {
+  min-height: 100px;
+}
+
+.application-form-container .language-checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.application-form-container .language-checkbox-group label {
+  margin-right: 20px;
+}
+
+.application-form-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.application-form-container button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,77 @@
+.login-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eef2f7;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 450px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .login-toggle {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-button {
+    padding: 15px 40px;
+    background: #4e54c8;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+    
+    transition: 0.3s ease;
+  }
+  
+  .toggle-button.active {
+    background: #3c41b3;
+  }
+  
+  .login-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+  }
+  
+  
+  
+ 
+  
+  .login-box {
+    flex: 1;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-box {
+    order: 1;
+  }
+  .logimg{
+    width: 200px;
+    height: 200px;
+
+  }
+  
+  

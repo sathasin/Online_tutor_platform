@@ -1,0 +1,95 @@
+.login-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eef2f7;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 450px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .login-toggle {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-button {
+    padding: 15px 40px;
+    background: #4e54c8;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    transform: skewX(-20deg);  /* Parallelogram effect */
+  }
+  
+  .toggle-button.active {
+    background: #3c41b3;
+    transform: skewX(0deg);  /* Reset skew when active */
+  }
+  
+  .login-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+  }
+  
+  .login-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+  }
+  
+  .login-image img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .login-box {
+    flex: 1;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-image.student {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  
+  .login-image.tutor {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  
+  .login-image.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  

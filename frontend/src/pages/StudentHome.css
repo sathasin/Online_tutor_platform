@@ -1,0 +1,122 @@
+/* Main container for student home */
+.student-home {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* 🎯 Profile styling */
+  .student-profile {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-profile img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+  
+  .student-profile-details {
+    flex: 1;
+  }
+  
+  .student-profile-details h2 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .student-profile-details p {
+    margin: 0.3rem 0;
+    color: #555;
+  }
+  
+  .student-profile-details button {
+    margin-top: 0.8rem;
+    padding: 0.5rem 1rem;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .student-profile-details button:hover {
+    background: #43a047;
+  }
+  
+  /* 🎯 Subjects common card */
+  .subject-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .subject-card h3 {
+    margin: 0;
+    font-size: 1.4rem;
+  }
+  
+  .subject-card p {
+    margin: 0.2rem 0;
+    color: #666;
+  }
+  
+  .subject-card button {
+    background: #1976d2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .subject-card button:hover {
+    background: #1565c0;
+  }
+  
+  /* 🎯 Section titles */
+  .section-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Search input */
+  .subject-search {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    .student-profile {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .student-profile img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
